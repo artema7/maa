@@ -1,0 +1,124 @@
+* {
+    color :rgb(15, 15, 93)
+}
+h1 {
+    text-align: center;
+    font-size: 3.2em;
+    color: rgb(15, 15, 93);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.menu , .menuPied {
+    display: flex;
+    padding:0;      
+    justify-content: space-around;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.menu li , .menuPied li {
+    list-style-type: none;
+}
+a /* Liens par défaut (non survolés) */{
+   text-decoration: none;
+   color: red;
+   font-style: bold;
+}
+a:hover /* Apparence au survol des liens */{
+   text-decoration: underline;
+   color: darkblue;
+}
+h2 {
+    font-size: 2em;
+    text-align: center;
+    color: rgb(15, 15, 93);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.lienrayon {
+    font-size: 0.9em;
+    text-align: center;
+    font-weight: bold;
+}
+#blocBienvenu {
+    display: flex;
+    flex-direction: column;   
+}
+.bienvenu {
+    background-color: yellow;
+    padding: 10px 5px 5px 25px;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 50px 50px;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 30em;
+    margin-top: 1.5em;
+}
+.bienvenu2 {
+    background-color: yellow;
+    padding: 10px 5px 5px 25px;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 50px 50px;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 30em;
+    margin-top: 10px;
+    margin-bottom: 5em;
+}
+.photoMag {
+    position: absolute;
+    margin-left: 50em; 
+}
+.photoMag2 {
+    position: absolute;
+    margin-left: 70em; 
+}
+.photoMag3 {
+    position: absolute;
+    margin-left: 50em; 
+    margin-top: 25em;
+}
+.photoMag4 {
+    position: absolute;
+    margin-left: 70em; 
+    margin-top: 25em;
+}
+.no {
+    position: absolute;
+    left : 1300px;
+}
+#contact {
+    display: flex;
+}
+.horaires {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.carte{
+    position: absolute;
+    margin-left: 40em;
+}
+.legal{
+    text-align: center;
+}
+header {
+    background-image : url("images/MAA_logo.png") ;
+    background-position: top left;
+    background-repeat: no-repeat;
+ }
+#blocPage {
+    width: 1400px;
+    margin: auto;
+}
+footer {
+    margin-top: auto;
+}
+.laverie {
+    text-align: left;
+    font-size: 2em;
+}
+.rayon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
